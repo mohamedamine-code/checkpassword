@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(43, 8, 76);
+    height: 100%;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 calc(50% - 120px);
+}
+.container .input-box{
+    border: 2px solid gray;
+    width: 240px;
+    border-radius: 5px;
+}
+input{
+    height: 30px;
+    width: 180px;
+    font-size: 15px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 5px;
+    background: transparent;
+    border: none;
+    color: aliceblue;
+}
+i{
+    height: 15px;
+    width: 30px;
+    border-radius: 50px;
+}
+h6{
+    color: aliceblue;
+    margin-top: 10px;
+}
